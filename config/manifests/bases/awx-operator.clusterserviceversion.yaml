@@ -5,11 +5,11 @@ metadata:
     alm-examples: '[]'
     capabilities: Basic Install
     categories: Integration & Delivery
-    containerImage: quay.io/ansible/awx-operator:devel
+    containerImage: amr-registry.caas.intel.com/it-lab-ops/awx-operator:devel
     createdAt: "2019-10-30"
     description: AWX provides a web-based user interface, REST API, and task engine
       built on top of Ansible.
-    repository: https://github.com/ansible/awx-operator
+    repository: https://github.com/epologov/awx-operator
     support: forum.ansible.com
   name: awx-operator.v0.0.0
   namespace: placeholder
